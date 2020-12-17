@@ -1,0 +1,99 @@
+ 64KBase_release
+
+ Timestamp is 4b3b023b (Wed Dec 30 09:33:15 2009)
+
+ Preferred load address is 00600000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001403H .text                   CODE
+ 0002:00000000 000000ccH .idata$5                DATA
+ 0002:000000d0 00000048H .rdata                  DATA
+ 0002:00000118 00000064H .idata$2                DATA
+ 0002:0000017c 00000014H .idata$3                DATA
+ 0002:00000190 000000ccH .idata$4                DATA
+ 0002:0000025c 0000032aH .idata$6                DATA
+ 0002:00000586 00000000H .edata                  DATA
+ 0003:00000000 000121e0H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 000074f8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       ?WinMainCRTStartup@@YIHXZ  00601000 f   main.obj
+ 0001:000000f0       ?WindowFunc@@YGJPAUHWND__@@IIJ@Z 006010f0 f   main.obj
+ 0001:000003b8       _uFMOD_SetVolume@4         006013b8     ufmod.obj
+ 0001:00000451       _uFMOD_PlaySong@12         00601451     ufmod.obj
+ 0002:00000000       __imp__DescribePixelFormat@16 00603000     gdi32:GDI32.dll
+ 0002:00000004       __imp__ChoosePixelFormat@8 00603004     gdi32:GDI32.dll
+ 0002:00000008       __imp__SetPixelFormat@12   00603008     gdi32:GDI32.dll
+ 0002:0000000c       __imp__GetStockObject@4    0060300c     gdi32:GDI32.dll
+ 0002:00000010       __imp__SwapBuffers@4       00603010     gdi32:GDI32.dll
+ 0002:00000014       \177GDI32_NULL_THUNK_DATA  00603014     gdi32:GDI32.dll
+ 0002:00000018       __imp__SizeofResource@8    00603018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__LoadResource@8      0060301c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__FindResourceA@12    00603020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__Sleep@4             00603024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__HeapDestroy@4       00603028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__HeapCreate@12       0060302c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__HeapAlloc@12        00603030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__SetThreadPriority@8 00603034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__CreateThread@24     00603038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__CloseHandle@4       0060303c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__WaitForSingleObject@8 00603040     kernel32:KERNEL32.dll
+ 0002:00000044       \177KERNEL32_NULL_THUNK_DATA 00603044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__wglCreateContext@4  00603048     opengl32:OPENGL32.dll
+ 0002:0000004c       __imp__glClear@4           0060304c     opengl32:OPENGL32.dll
+ 0002:00000050       __imp__glOrtho@48          00603050     opengl32:OPENGL32.dll
+ 0002:00000054       __imp__glFinish@0          00603054     opengl32:OPENGL32.dll
+ 0002:00000058       __imp__wglMakeCurrent@8    00603058     opengl32:OPENGL32.dll
+ 0002:0000005c       __imp__glMatrixMode@4      0060305c     opengl32:OPENGL32.dll
+ 0002:00000060       __imp__glViewport@16       00603060     opengl32:OPENGL32.dll
+ 0002:00000064       __imp__wglDeleteContext@4  00603064     opengl32:OPENGL32.dll
+ 0002:00000068       __imp__glLoadIdentity@0    00603068     opengl32:OPENGL32.dll
+ 0002:0000006c       \177OPENGL32_NULL_THUNK_DATA 0060306c     opengl32:OPENGL32.dll
+ 0002:00000070       __imp__EndPaint@8          00603070     user32:USER32.dll
+ 0002:00000074       __imp__RegisterClassA@4    00603074     user32:USER32.dll
+ 0002:00000078       __imp__LoadCursorA@8       00603078     user32:USER32.dll
+ 0002:0000007c       __imp__UpdateWindow@4      0060307c     user32:USER32.dll
+ 0002:00000080       __imp__DispatchMessageA@4  00603080     user32:USER32.dll
+ 0002:00000084       __imp__ShowWindow@8        00603084     user32:USER32.dll
+ 0002:00000088       __imp__DefWindowProcA@16   00603088     user32:USER32.dll
+ 0002:0000008c       __imp__ReleaseDC@8         0060308c     user32:USER32.dll
+ 0002:00000090       __imp__CreateWindowExA@48  00603090     user32:USER32.dll
+ 0002:00000094       __imp__TranslateMessage@4  00603094     user32:USER32.dll
+ 0002:00000098       __imp__GetDC@4             00603098     user32:USER32.dll
+ 0002:0000009c       __imp__BeginPaint@8        0060309c     user32:USER32.dll
+ 0002:000000a0       __imp__PostQuitMessage@4   006030a0     user32:USER32.dll
+ 0002:000000a4       __imp__GetMessageA@16      006030a4     user32:USER32.dll
+ 0002:000000a8       \177USER32_NULL_THUNK_DATA 006030a8     user32:USER32.dll
+ 0002:000000ac       __imp__waveOutGetPosition@12 006030ac     winmm:WINMM.dll
+ 0002:000000b0       __imp__waveOutOpen@24      006030b0     winmm:WINMM.dll
+ 0002:000000b4       __imp__waveOutPrepareHeader@12 006030b4     winmm:WINMM.dll
+ 0002:000000b8       __imp__waveOutReset@4      006030b8     winmm:WINMM.dll
+ 0002:000000bc       __imp__waveOutUnprepareHeader@12 006030bc     winmm:WINMM.dll
+ 0002:000000c0       __imp__waveOutWrite@12     006030c0     winmm:WINMM.dll
+ 0002:000000c4       __imp__waveOutClose@4      006030c4     winmm:WINMM.dll
+ 0002:000000c8       \177WINMM_NULL_THUNK_DATA  006030c8     winmm:WINMM.dll
+ 0002:000000d0       ??_C@_0P@PDFFOEOH@OpenGLWinClass?$AA@ 006030d0     main.obj
+ 0002:000000e0       ??_C@_0BB@KGGCNFAK@Win?5API?5Template?$AA@ 006030e0     main.obj
+ 0002:000000f8       __real@c014000000000000    006030f8      CIL library: CIL module
+ 0002:00000100       __real@4014000000000000    00603100      CIL library: CIL module
+ 0002:00000108       __real@4000000000000000    00603108      CIL library: CIL module
+ 0002:00000110       __real@4028000000000000    00603110      CIL library: CIL module
+ 0002:00000118       __IMPORT_DESCRIPTOR_OPENGL32 00603118     opengl32:OPENGL32.dll
+ 0002:0000012c       __IMPORT_DESCRIPTOR_WINMM  0060312c     winmm:WINMM.dll
+ 0002:00000140       __IMPORT_DESCRIPTOR_KERNEL32 00603140     kernel32:KERNEL32.dll
+ 0002:00000154       __IMPORT_DESCRIPTOR_USER32 00603154     user32:USER32.dll
+ 0002:00000168       __IMPORT_DESCRIPTOR_GDI32  00603168     gdi32:GDI32.dll
+ 0002:0000017c       __NULL_IMPORT_DESCRIPTOR   0060317c     opengl32:OPENGL32.dll
+ 0003:000121d0       ?hWnd@@3PAUHWND__@@A       006161d0     main.obj
+ 0003:000121d4       ?hGLRC@@3PAUHGLRC__@@A     006161d4     main.obj
+ 0003:000121d8       ?hDC@@3PAUHDC__@@A         006161d8     main.obj
+ 0003:000121dc       __fltused                  006161dc     main.obj
+
+ entry point at        0000:00000000
+
+ Static symbols
+
